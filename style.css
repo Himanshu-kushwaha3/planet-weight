@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #CDF5FD;
+    background-image: url(sunrise-1014712_1280.jpg);
+    background-position: right;
+    /* background-size: 720px; */
+    
+}
+input{
+    padding: 4px 3px;
+    outline: 0;
+    border-style: intset;
+    color: #FFF;
+    background-color: rgba(0, 0, 255, 0.174);
+    
+}
+h2{
+    text-align: center;
+    padding: 4px;
+}
+.earth{
+    width: 90%;
+    max-width: 600px;
+    height: 100px;
+    margin: 10px auto 10px;
+    text-align: center;
+    background-color: #744dd740;
+    border-radius: 8px;
+}
+.planets{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 6px;
+    height: 220px;
+    background-color: #744dd740;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    font-size: 8px;
+    margin-right: 4px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.733);
+}
+a{
+    text-decoration: none;
+    background-color: #2c0a816a;
+    color: #CDF5FD;
+    text-align: center; 
+    margin: 50px;
+    padding: 8px;
+    border-radius: 8px;
+}
